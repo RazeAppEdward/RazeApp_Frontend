@@ -1,10 +1,23 @@
-# razeapp
+# RazeApp
 
 ## Project setup
 ```
 npm install
 ```
+### Add Vuetify
+```
+vue add vuetify
+```
+### Install Axios
+```
+npm install axios
+```
+### Add routing
+```
+vue add router
+```
 
+## Compilation
 ### Compiles and hot-reloads for development
 ```
 npm run serve
