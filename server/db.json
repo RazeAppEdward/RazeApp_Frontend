@@ -1,0 +1,162 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "the best t-shirt",
+      "img": "https://firebasestorage.googleapis.com/v0/b/raze-chat-37c27.appspot.com/o/images%2Fimagen_2.jpg?alt=media&token=945a8f0e-e728-4ef1-ad3b-b5267e8dfad4",
+      "description": "the t-shirt black is the best.",
+      "rate": 3.7,
+      "rateNumber": 1,
+      "userId": 1,
+      "interestId": 1,
+      "tagId": 2
+    },
+    {
+      "id": 2,
+      "title": "the best t-shirt",
+      "img": "https://firebasestorage.googleapis.com/v0/b/raze-chat-37c27.appspot.com/o/images%2Fimg.jpg?alt=media&token=44806756-979d-4b7d-bb96-9c5bb9af09d6",
+      "description": "the t-shirt black is the best",
+      "rate": 4.1,
+      "rateNumber": 1,
+      "userId": 2,
+      "interestId": 1,
+      "tagId": 2
+    },
+    {
+      "id": 3,
+      "title": "the best outfit",
+      "img": "https://firebasestorage.googleapis.com/v0/b/raze-chat-37c27.appspot.com/o/images%2Fpost.jpg?alt=media&token=5aa07022-d24e-48e1-98b0-9090fbb375fc",
+      "description": "black jeans",
+      "rate": "3.0",
+      "rateNumber": 2,
+      "tagId": 2,
+      "userId": 2,
+      "interestId": 1
+    },
+    {
+      "id": 4,
+      "title": "black jacket",
+      "img": "https://firebasestorage.googleapis.com/v0/b/raze-chat-37c27.appspot.com/o/images%2Fimagen_1.jpg?alt=media&token=0d33f5c2-3280-4f4a-96c1-f03127f11062",
+      "description": "black jacket with blue jeans",
+      "tagId": 2,
+      "interestId": 1,
+      "userId": 3,
+      "rateNumber": 2,
+      "rate": "4.0"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "title": "hair style"
+    },
+    {
+      "id": 2,
+      "title": "clothes"
+    },
+    {
+      "id": "950b7b3c-f8c7-432c-82c6-41969c3e0f60",
+      "title": "colors"
+    }
+  ],
+  "interests": [
+    {
+      "id": 1,
+      "title": "Casual",
+      "img": "https://wallpaperdig.com/wp-content/uploads/2021/08/mens-clothing-casual-dress.jpg",
+      "description": "Ropa informal",
+      "published": true
+    },
+    {
+      "id": 2,
+      "title": "Formal",
+      "img": "https://www.myoutfie.com/historias/wp-content/uploads/2019/02/outfits-casual-elegante-5-683x1024.jpg",
+      "description": "Ropa formal y elegante",
+      "published": true
+    },
+    {
+      "id": 3,
+      "title": "Sport",
+      "img": "https://comoorganizarlacasa.com/wp-content/uploads/2021/04/outfits-domingueros-estilo-sport-1.jpg",
+      "description": "Sport Clothes",
+      "published": false
+    }
+  ],
+  "professions": [
+    {
+      "id": 1,
+      "name": "none"
+    },
+    {
+      "id": 2,
+      "name": "Fashion consultant"
+    },
+    {
+      "id": 3,
+      "name": "Designer"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Edward Ticlavilca",
+      "userName": "Ed",
+      "imgProfile": "https://firebasestorage.googleapis.com/v0/b/raze-chat-37c27.appspot.com/o/usersProfiles%2F2.png?alt=media&token=cbb5a4ca-917b-4da2-9c8a-7420ba3ef4f0",
+      "age": 19,
+      "email": "jesu0902@gmail.com",
+      "interestId": 2,
+      "password": "goku123",
+      "userType": "Advisor",
+      "professionId": 2,
+      "premium": true
+    },
+    {
+      "id": 2,
+      "name": "Miguel Flores",
+      "userName": "Miguel",
+      "imgProfile": "",
+      "age": 21,
+      "interestId": 1,
+      "email": "zara1909@gmail.com",
+      "password": "hellokitty21",
+      "userType": "Advised",
+      "professionId": "1",
+      "premium": true
+    },
+    {
+      "id": 3,
+      "name": "kevin",
+      "imgProfile": "https://firebasestorage.googleapis.com/v0/b/raze-chat-37c27.appspot.com/o/usersProfiles%2F2.png?alt=media&token=2396e318-e69f-4bd9-a376-42f94f403e98",
+      "age": "21",
+      "email": " kevin@cuenta",
+      "password": "1234",
+      "userType": "Advisor"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "text": "Nice",
+      "userId": 1,
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "text": "Looks awesome",
+      "userId": 1,
+      "postId": 1
+    },
+    {
+      "text": "A new comment",
+      "userId": 1,
+      "postId": 1,
+      "id": 4
+    },
+    {
+      "text": "Don't like it at all",
+      "userId": 2,
+      "postId": 3,
+      "id": 5
+    }
+  ]
+}
